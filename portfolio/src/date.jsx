@@ -15,7 +15,9 @@ function Data() {
         <section>
             <div className='container'>
                 <div className="time__wrapper">
-                    { miss ? (<p className='cont padding-left padding-right '>{ miss.location && miss.location.localtime}</p>) : (<p className='padding-left padding-right padding-top cont'>{miss.location.localtime}</p>)}
+                    {miss ? (<Image className='cont'>{ miss.condition.icon}</Image>) : (<p>No Data Found</p>)}
+
+                    { miss ? (<p className='padding'><p>Last updated at:</p><br />{ miss.location && miss.location.localtime}</p>) : (<p className='padding'>{miss.location.localtime}</p>)}
                 </div>
             </div>
         </section>
