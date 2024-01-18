@@ -1,9 +1,9 @@
 import './reset.css'
 import './index.css'
 import './header.css'
-import Logo from './assets/logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTelegram, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
       
@@ -11,7 +11,7 @@ function Header() {
         <header>
           <div className='container'>
             <div className="header__inner">
-              <div className='logo__inner' title='Yes it is my logo'><img src={Logo} className="logo" alt="" /></div>
+              <div className='logo__inner'>Mississauga<FontAwesomeIcon icon={ faMapPin } /></div>
             
               <div className='items'>
                 <ul><a href="https://github.com/Primis1" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></ul>

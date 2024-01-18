@@ -1,8 +1,15 @@
+header {
+  padding-top: 40px;
+  position: sticky;
+}
+
 .header__inner {
+    color: white;
+    font-size: large;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222222;
+    background-color: rgba(0, 0, 0, 0.37);
     padding: 20px 25px;
     border-radius: 25px;
   }
@@ -22,11 +29,16 @@
 
 .fa-github, 
 .fa-telegram, 
-.fa-instagram {
+.fa-instagram,
+.fa-map-pin {
     color: white;
     font-size: 30px;
     transition: all ease-in-out 0.2s;
     padding: 0px 10px;
+}
+
+.fa-map-pin {
+  font-size: 20px;
 }
 
   .fa-telegram:hover {
