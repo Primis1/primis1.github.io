@@ -9,20 +9,21 @@ export function Data() {
         .then(response => response.json())
         .then(miss => setMiss(miss))
         .catch(error => console.error('Error:', error));
-    },[])
+    }, [])
     
     return(
-        <section>
-            <div className='container'>
+        
+
                 <div className="time__wrapper">
                     {/* working one */}
-                    { miss ? (<p className='padding'>Last updated at:<br />{ miss.location && miss.location.localtime}</p>) : (<p className='padding'>No Data Found</p>)}
+                    { (<p className='padding-top size'>{ miss.current && miss.current.temp_c}<span className='small'>°C</span></p>)}
 
 
                     {/* issue one */}
-                    {miss ? (<div className='padding'>{ miss.current.condition && miss.current.condition.text }</div>) : (<p className='padding'>No Data Found</p>)}
+                    { (<p className='padding-both'>Last updated at:<br />{ miss.location && miss.location.localtime}</p>)}
+
                 </div>
-            </div>
-        </section>
+
+    
     )
 }

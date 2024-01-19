@@ -5,6 +5,7 @@ body {
   line-height: 1;
   background-image: url('./assets/weather.png');
   background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -24,8 +25,9 @@ h1 {
   font-weight: 700;
   text-align: center;
 }
+
 p   {
-  font: 18px Poppins;
+  font: 20px;
   text-align: center;
   color: white;
   font-weight: light
@@ -49,6 +51,15 @@ h2 {
   width: auto;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 725px){
+  .container{
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
 
 button {

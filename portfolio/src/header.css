@@ -28,7 +28,14 @@ header {
     padding-left: 35px;
 }
 
-.fa-github, 
+.fa-cloud-moon {
+  color: white;
+  font-size: 50px;
+  padding-top: 30px;
+} 
+
+
+.fa-github,
 .fa-telegram, 
 .fa-instagram,
 .fa-map-pin {

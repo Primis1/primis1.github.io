@@ -1,11 +1,34 @@
-.padding{
+.padding-top{
+padding-top: 30px;
+}
+
+.padding-both{
 padding: 30px 0px;
 }
+
+.size {
+    font-size: 50px;
+}
+
+.small-size {
+    font-size: 40px;
+}
+
+.img__size {
+    height: 160px;
+}
+
+.fill__white{
+    filter: brightness(200);
+}
+
+
 
 .time__wrapper {
     max-width: fit-content;
     max-height: fit-content;    
-    display: flex;
+    display: block;
+    
     justify-content: center;
     align-items: center;
     background-color: rgba(81, 81, 81, 0.37);
@@ -15,6 +38,16 @@ padding: 30px 0px;
     min-height: 50px;
 }
 
-.cont{
-
-  }
+.type__wrapper {
+    max-width: fit-content;
+    max-height: fit-content;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(81, 81, 81, 0.37);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    min-width: 175px;
+    min-height: 50px;
+}
