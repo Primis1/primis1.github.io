@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTelegram, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 
-function Header() {
+export function Header() {
       
     return (
         <header>
@@ -26,4 +26,3 @@ function Header() {
     )
   }
 
-export default Header
