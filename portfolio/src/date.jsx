@@ -15,13 +15,13 @@ export function Data() {
         
 
                 <div className="time__wrapper">
-                    {/* working one */}
-                    { (<p className='padding-top size'>{ miss.current && miss.current.temp_c}<span className='small'>°C</span></p>)}
+                    <div className="sec-contaier">
 
-
-                    {/* issue one */}
-                    { (<p className='padding-both'>Last updated at:<br />{ miss.location && miss.location.localtime}</p>)}
-
+                        { (<p className='size'>{ miss.current && miss.current.temp_c}<span className='small'>°C</span></p>)}
+                
+                        { (<p className='padding-top padding-sides min-width'>Last updated at:<br />{ miss.location && miss.location.localtime}</p>)}
+                    
+                    </div>
                 </div>
 
     

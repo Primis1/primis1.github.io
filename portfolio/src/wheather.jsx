@@ -9,7 +9,7 @@ export function Wheather() {
             <div className='container'>
                 <div className="app__wrapper"> 
                     <Data /> 
-                    <Stats />
+                    {/* <Stats /> */}
                     <Th />
                  </div>
                 

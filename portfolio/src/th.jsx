@@ -15,10 +15,14 @@ import './data.css'
     },[])
     
     return(
-            <div className='type__wrapper'>
-              <FontAwesomeIcon icon={faCloudMoon}></FontAwesomeIcon>
+            <div className='time__wrapper'>
+              <div className="sec-contaier">
 
-              {miss.current && <p className='padding-both small__size'>Wheather condition: <br />{miss.current.condition.text}</p>}
+                  <FontAwesomeIcon icon={faCloudMoon}></FontAwesomeIcon>
+
+                  {miss.current && <p className='padding-top padding-sides min-width'>Wheather condition: <br />{miss.current.condition.text}</p>}
+              
+              </div>
             </div>
     )
 }

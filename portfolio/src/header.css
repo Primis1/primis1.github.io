@@ -25,28 +25,43 @@ header {
 }
 
 .btn__inner {
-    padding-left: 35px;
+    padding: 0px 30px;
 }
 
 .fa-cloud-moon {
   color: white;
   font-size: 50px;
-  padding-top: 30px;
 } 
 
 
 .fa-github,
 .fa-telegram, 
-.fa-instagram,
-.fa-map-pin {
+.fa-instagram {
     color: white;
     font-size: 30px;
     transition: all ease-in-out 0.2s;
     padding: 0px 10px;
 }
 
+@media only screen and (max-width: 490px){
+  .fa-github,
+  .fa-telegram, 
+  .fa-instagram {
+      color: white;
+      font-size: 20px;
+      transition: all ease-in-out 0.2s;
+      padding: 0px 5px;
+  }
+
+  .btn__inner {
+    padding: 0px 10px;
+}
+}
+
 .fa-map-pin {
+  padding-left: 10px;
   font-size: 20px;
+  color: white;
 }
 
   .fa-telegram:hover {

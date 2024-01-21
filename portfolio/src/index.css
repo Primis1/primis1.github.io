@@ -53,15 +53,6 @@ h2 {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 725px){
-  .container{
-    height: auto;
-    width: auto;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-}
-
 button {
   /* box-sizing: content-box; */
   text-align: center;
