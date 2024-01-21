@@ -9,6 +9,13 @@ body {
   margin: 0;
 }
 
+@media only screen and (max-width: 490px) {
+  body {
+    background-image: url('./assets/pexels-teju-17145587.jpg');
+    background-size: 150%;
+  }
+}
+
 *,
 *::before,
 *::after {
