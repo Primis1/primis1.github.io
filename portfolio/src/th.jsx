@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCloudMoon } from "@fortawesome/free-solid-svg-icons";
-
+import './index.css'
 import './data.css'
 
   export function Th(){

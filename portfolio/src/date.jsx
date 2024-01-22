@@ -1,5 +1,7 @@
 import {useState, useEffect } from 'react'
 import './data.css'
+import './index.css'
+
 
 export function Data() {
     const [ miss, setMiss ] = useState([])
