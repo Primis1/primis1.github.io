@@ -11,7 +11,7 @@ export function Header() {
         <header>
           <div className='container'>
             <div className="header__inner">
-              <div className='logo__inner'>Mississauga<FontAwesomeIcon icon={ faMapPin } /></div>
+              <p className='logo__inner'>Mississauga<FontAwesomeIcon icon={ faMapPin } /></p>
             
               <div className='items'>
                 <ul><a href="https://github.com/Primis1" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></ul>

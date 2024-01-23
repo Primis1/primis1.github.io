@@ -16,7 +16,7 @@ export function Data() {
     return(
         
 
-                <div className="time__wrapper">
+                <div className="time__wrapper ">
                     <div className="sec-contaier">
 
                         { (<p className='size'>{ miss.current && miss.current.temp_c}<span className='small'>°C</span></p>)}

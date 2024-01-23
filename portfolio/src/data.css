@@ -15,6 +15,15 @@
     align-items: center;
 }
 
+.third-container {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
 .padding-top{
 padding-top: 30px;
 }
@@ -25,6 +34,18 @@ padding-top: 30px;
 
 .small-size {
     font-size: 40px;
+}
+
+.small__image {
+    height: auto;
+}
+
+.mini__small__size {
+    font-size: 20px;
+}
+
+.mini__size {
+    font-size: 20px;
 }
 
 .img__size {
@@ -55,3 +76,13 @@ padding-top: 30px;
     min-height: auto;
 }
 
+.st__wrapper {
+    max-width: auto;
+    max-height: auto;    
+
+    background-color: rgba(81, 81, 81, 0.37);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    min-width: auto;
+    min-height: auto;
+}
