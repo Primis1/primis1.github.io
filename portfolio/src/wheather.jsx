@@ -10,7 +10,6 @@ export function Wheather() {
                 <div className="app__wrapper"> 
                     <Data />                     
                     <Gr />
-
                     <Th />
                  </div>
                 

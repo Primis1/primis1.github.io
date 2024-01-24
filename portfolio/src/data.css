@@ -16,12 +16,19 @@
 }
 
 .third-container {
+    overflow-x: auto;
+    white-space: nowrap;
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
     
     justify-content: center;
     align-items: center;
+}
+
+.block {
+      display: inline-block;
+
 }
 
 .padding-top{
@@ -45,7 +52,7 @@ padding-top: 30px;
 }
 
 .mini__size {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .img__size {
