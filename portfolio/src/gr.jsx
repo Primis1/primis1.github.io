@@ -16,16 +16,18 @@ export function Gr() {
 
     return (
         <div className="gr__wrapper ">
-            <h1>Forecast</h1>
+            <h1 className='forecast'>Forecast</h1>
             <div className="st_container">
                 {forecast && forecast.forecastday && forecast.forecastday.map((date, index) => (
-                    <St key={index} day={date}
-                     
-                    />
-                ))}
-
-
+                     <St 
+                     key={index} 
+                     day={date}
+                     avgtemp_c={date.day.avgtemp_c}
+                     icon={date.day.condition.icon}
+                     />
+                 ))}
             </div>
+
         </div>
     )
 }
