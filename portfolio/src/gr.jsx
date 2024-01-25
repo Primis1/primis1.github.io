@@ -16,7 +16,6 @@ export function Gr() {
 
     return (
         <div className="gr__wrapper ">
-            <h1 className='forecast'>Forecast</h1>
             <div className="st_container">
                 {forecast && forecast.forecastday && forecast.forecastday.map((date, index) => (
                      <St 

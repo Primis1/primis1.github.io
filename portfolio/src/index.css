@@ -32,8 +32,21 @@ h1 {
   font: 30px Roboto;
   font-weight: 400;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 8px;
+}
+.forecast {
+  padding: 10px 20px;
+}
+
+.h1__wrapper {
+  margin: 20px 0px;
+  max-width: fit-content;
+  background-color: rgba(81, 81, 81, 0.37);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+}
+
+.padding {
+  /* padding: 25px 0px; */
 }
 
 p   {

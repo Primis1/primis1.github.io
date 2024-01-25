@@ -8,9 +8,17 @@ export function Wheather() {
         <section>
             <div className='container'>
                 <div className="app__wrapper"> 
-                    <Data />                     
-                    <Gr />
-                    <Th />
+
+                    <div className="h1__wrapper">
+                        <h1 className='forecast'>Forecast</h1>
+                    </div>      
+
+                    <div className="cool__name">                    
+                        <Data />                     
+                        <Gr />
+                        <Th />
+                    </div>
+
                  </div>
                 
                 
