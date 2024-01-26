@@ -13,11 +13,12 @@ export function Wheather() {
                         <h1 className='forecast'>Forecast</h1>
                     </div>      
 
-                    <div className="cool__name">                    
-                        <Data />                     
-                        <Gr />
-                        <Th />
-                    </div>
+                    <div className="data"><Data /></div>
+                    <div className="gr"><Gr /></div>
+                    <div className="th"><Th /></div>
+                                       
+                     
+                     
 
                  </div>
                 

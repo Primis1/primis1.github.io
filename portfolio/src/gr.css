@@ -3,8 +3,6 @@
     white-space: nowrap;
 
     display: flex;
-    flex-grow: 1;
-    margin: 0px 20px;
 
     justify-content: start;
     align-items: center;
@@ -12,14 +10,17 @@
     background-color: rgba(81, 81, 81, 0.37);
     border-radius: 25px;
     backdrop-filter: blur(5px);
-    min-width: 550px;
-    min-height: 200px;
-    position: relative;
+    width: auto;
+    height: 200px;
+}
+
+@media only screen and (max-width: 490px) {
+  .gr__wrapper {
+}
 }
 
 .st_container {
     display: flex;
-    /* justify-content: center; */
     gap: 20px;
     margin: 5px 15px;
 }
