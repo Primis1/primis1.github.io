@@ -45,8 +45,8 @@
 }
 
 .padding-sides {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .min-width{
@@ -69,6 +69,11 @@
     .time__wrapper {
         max-width: 180px;
     }
+
+    
+.padding-sides {
+    padding: 0px 30px;
+}
 }
 
 .sec-contaier {

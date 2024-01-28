@@ -20,7 +20,7 @@ import './data.css'
 
                   <FontAwesomeIcon icon={faCloudMoon}></FontAwesomeIcon>
 
-                  {miss.current && <p className='padding-top padding-sides min-width'>Wheather condition: <br />{miss.current.condition.text}</p>}
+                  {miss.current ? <p className='padding-top padding-sides min-width'>Wheather condition: <br />{miss.current.condition.text}</p> : <p className='padding-top padding-sides min-width'>Wheather condition:</p>}
               
               </div>
             </div>
