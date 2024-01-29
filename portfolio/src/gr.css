@@ -14,6 +14,12 @@
     height: 200px;
 }
 
+@media only screen and (max-width: 490px){
+  .gr__wrapper {
+    margin-left: 10px;
+}
+}
+
 .st_container {
     display: flex;
     gap: 20px;

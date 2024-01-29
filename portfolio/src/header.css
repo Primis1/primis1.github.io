@@ -56,6 +56,10 @@ header {
   .btn__inner {
     padding-left: 10px;
 }
+
+header{
+  padding-left: 10px;
+}
 }
 
 .fa-map-pin {
@@ -79,3 +83,4 @@ header {
     filter: drop-shadow(0 0.2rem 0.25rem rgba(255, 255, 255, 0.5));
     transform: scaleX(1.2) scaleY(1.2);
   }
+

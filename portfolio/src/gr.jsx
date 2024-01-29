@@ -16,16 +16,18 @@ export function Gr() {
 
     return (
         <div className="gr__wrapper ">
+
             <div className="st_container">
                 { forecast ? forecast.forecastday.map((date, index) => (
-                     <St 
+                    
+                    <St 
                      key={index} 
                      day={date}
                      avgtemp_c={date.day.avgtemp_c}
                      icon={date.day.condition.icon}
                      />
 
-                 )) : <p>Not Found</p>}
+                 )) : <p>Not Found</p> }
             </div>
 
         </div>
